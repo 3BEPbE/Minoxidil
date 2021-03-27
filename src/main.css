@@ -1,9 +1,19 @@
 /*.carousel-inner {*/
 /*    height: 600px;*/
 /*}*/
-/*.carousel-item {*/
-/*    height: 600px;*/
-/*}*/
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item h5 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    top: 7%;
+    left: 60%;
+}
+
 .btn_in_carousel {
     position: absolute;
     left: 13%;
@@ -11,6 +21,25 @@
     background-color: rgba(255,254,254,0.2)!important;
     color: white!important;
     padding: 10px 60px!important;
+}
+
+.btn_in_carousel_2 {
+    position: absolute;
+    left: 13%;
+    top: 65%;
+    background-color: rgba(255,254,254,0.2)!important;
+    color: white!important;
+    padding: 10px 60px!important;
+}
+
+.telegram__img {
+    position: absolute;
+    top: 7%;
+    left: 78%;
+}
+
+.second_block {
+    font-weight: bold;
 }
 .item_img {
     width: 100%;
@@ -81,4 +110,30 @@
 }
 .block_10 {
     padding: 30px 0;
+}
+.item_img_11 {
+    width: 60%;
+}
+.wrapper__11 {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper__footer {
+    background-color: rgb(53,53,53);
+}
+
+.footer_item__wrapper {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.footer_item__wrapper a {
+    text-decoration: none;
+    color: white;
+    outline: none;
+}
+.footer_item__wrapper a:hover {
+    color: #F2F2F2;
 }
